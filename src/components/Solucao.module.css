@@ -1,0 +1,146 @@
+.bg {
+  background-image: url(../assets/image/last.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-stretch: expanded;
+}
+
+.content {
+  max-width: 1330px;
+  margin: 128px auto 0;
+  font-stretch: expanded;
+  padding: 64px 0;
+}
+
+.title {
+  text-align: center;
+  color: #404040;
+}
+
+.title p {
+  font-size: 32px;
+}
+
+.title h2 {
+  font-size: 56px;
+}
+
+.mosaico {
+  margin: 32px 0 0;
+  display: flex;
+  gap: 24px;
+}
+
+.mosaico .colOne {
+  background: rgba(226, 23, 23, 0.8);
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+  width: 100%;
+  heigth: 100%;
+  padding: 64px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.colOne .seila {
+  display: flex;
+  justify-content: space-between;
+  color: #ffffff;
+}
+.seila .first p {
+  font-size: 40px;
+  font-weight: 500;
+}
+.second {
+  border-left: 1px solid white;
+  display: flex;
+  padding: 0 32px;
+  align-items: center;
+}
+
+.second p {
+  font-size: 32px;
+  font-weight: 300;
+}
+.colTwo {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 22px;
+}
+.colTwo .box {
+  border-radius: 4px;
+  background: linear-gradient(180deg, #060099 0%, #020033 100%);
+  box-shadow: 0px 11px 13.9px 0px rgba(0, 0, 0, 0.5);
+  width: 250px;
+  heigth: 321px;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #fff;
+}
+
+.box p {
+  font-size: 16px;
+}
+.box h3 {
+  font-size: 22px;
+  font-heigth: 650;
+}
+
+@media screen and (max-width: 1330px) {
+  .content {
+    padding: 0 64px;
+  }
+  .colTwo .box {
+    width: 100%;
+    display: flex;
+    gap: 32px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .content {
+    padding: 32px 16px;
+  }
+  .mosaico {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .colOne {
+    padding: 32px !important;
+    gap: 32px;
+  }
+  .colTwo {
+    display: flex;
+    justify-content: space-between;
+  }
+  .colTwo .box {
+    width: 100%;
+    display: flex;
+    gap: 32px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .content .title p {
+    font-size: 16px;
+  }
+  .content .title h2 {
+    font-size: 32px;
+  }
+  .colOne .seila {
+    display: flex;
+    justify-content: space-between;
+  }
+  .colOne .first p {
+    font-size: 32px;
+  }
+  .colOne .second {
+    width: 150px;
+    padding: 0 8px !important;
+  }
+  .colOne .second p {
+    font-size: 16px;
+  }
+}

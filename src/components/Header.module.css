@@ -1,0 +1,63 @@
+.header {
+  position: absolute;
+  width: 100%;
+  background-color: #eaeaf8;
+}
+@media screen and (max-width: 400px) {
+  .header {
+    position: relative;
+  }
+  .header .content {
+    padding: 1rem 1rem !important;
+  }
+  .header .content img {
+    height: 1.5rem !important;
+  }
+  .header .content p {
+    display: none;
+  }
+}
+@media screen and (max-width: 700px) {
+  .header {
+    position: relative;
+  }
+  .header .content {
+    padding: 1rem 1rem !important;
+  }
+  .header .content img {
+    height: 1.5rem !important;
+  }
+  .header .content p {
+    display: none;
+  }
+}
+
+.header .content {
+  max-width: 1330px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.25rem 0;
+  margin: 0 auto;
+}
+.header .content p {
+  font-weight: 500;
+  font-stretch: expanded;
+  color: #fff;
+}
+
+.header .content img {
+  height: 3.5rem;
+}
+
+.header .content button {
+  padding: 12px 22px;
+  border-radius: 100px;
+  border: none;
+  background-color: #0801d9;
+}
+.header button a {
+  color: #fff;
+  text-decoration: none;
+}
+/* make a hover */

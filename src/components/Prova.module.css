@@ -1,0 +1,33 @@
+.content {
+  background: linear-gradient(90deg, #01091d 0%, #00278a 100%);
+  box-shadow: 0px 0px 20px 0px #000;
+}
+
+.prova {
+  margin: 0 auto;
+  max-width: 1330px;
+  font-stretch: expanded;
+  padding: 64px 0;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 500;
+  color: #ffffff;
+  margin-bottom: 32px;
+}
+
+.cards {
+  display: flex;
+  gap: 22px;
+  overflow-x: auto;
+}
+.card {
+  background-color: #ffffff;
+  border-radius: 4px;
+  display: flex;
+  min-width: 405px;
+  padding: 12px;
+  gap: 32px;
+  flex-direction: column;
+}

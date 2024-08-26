@@ -1,0 +1,150 @@
+.content {
+  max-width: 1330px;
+  margin: 0 auto;
+  font-stretch: expanded;
+}
+
+.title {
+  margin: 128px auto 32px;
+  color: #404040;
+  text-align: center;
+}
+
+@media screen and (max-width: 400px) {
+  .content {
+    padding: 0 0 0 8px;
+  }
+
+  .title h2 {
+    font-size: 32px !important;
+  }
+
+  .title p {
+    font-size: 14px !important;
+  }
+}
+
+.title h2 {
+  font-size: 56px;
+  font-weight: 600;
+}
+
+.title p {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #7d7d7d;
+}
+
+.cards {
+  display: flex;
+  gap: 22px;
+  overflow-x: auto;
+}
+
+.cards .card {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  width: 361px;
+  height: 652px;
+  padding: 24px;
+
+  color: #ffffff;
+
+  border-radius: 12px;
+  background: linear-gradient(180deg, #0043f0 0%, #00278a 100%);
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.card .primeiro {
+  display: flex;
+  justify-content: space-between;
+}
+
+.primeiro p {
+  font-weight: 200;
+}
+
+.elementos {
+  padding: 8px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.elemento {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.elemento span {
+  color: #7c98df;
+}
+
+.elemento p {
+  font-weight: 200;
+  font-size: 14px;
+}
+
+.prices {
+}
+.price {
+  display: flex;
+
+  align-items: flex-end;
+}
+
+.price h3 {
+  font-size: 40px;
+  font-weight: 500;
+}
+.price p {
+  padding: 8px;
+  font-size: 13px;
+  font-weight: 200;
+}
+.descricao {
+  margin-top: 4px;
+}
+.descricao p {
+  font-size: 14px;
+  font-weight: 300;
+}
+.descricao p span {
+  paddign: 4px 8px;
+  background: red;
+}
+
+.cta {
+  padding: 16px 0px;
+  width: 100%;
+  border-radius: 8px;
+  background: #0043f0;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
+  border: none;
+}
+
+.cta a {
+  text-decoration: none;
+  color: #ffffff;
+  font-stretch: expanded;
+  font-size: 16px;
+}
+
+.info {
+  text-align: center;
+  font-size: 12px;
+  font-weight: 200;
+}
+
+@media screen and (max-width: 1330px) {
+  .content {
+    padding: 0 64px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .content {
+    padding: 0 16px !important;
+  }
+}

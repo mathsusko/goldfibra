@@ -1,0 +1,357 @@
+@media screen and (max-width: 400px) {
+  .content {
+    padding: 0 16px !important;
+  }
+  .title p {
+    font-size: 14px;
+  }
+  .cardOne {
+    padding: 24px 24px !important;
+  }
+  .cardOne .infoOne {
+    gap: 8px;
+  }
+  .infoOne h3 {
+    font-size: 22px !important;
+  }
+  .infoOne p {
+    font-size: 14px !important;
+  }
+  .cardThree {
+    height: 100% !important;
+    padding: 24px 24px !important;
+  }
+  .cardThree .primeira img {
+    height: 44px !important;
+  }
+  .cardThree .terceira p:nth-child(1) {
+    font-size: 22px;
+  }
+  .cardThree .terceira p:nth-child(2) {
+    font-size: 14px;
+  }
+  .cardThree .terceira p:nth-child(3) {
+    font-size: 22px;
+  }
+}
+
+.content {
+  margin-top: 64px;
+  max-width: 1330px;
+  margin: 0 auto;
+  font-stretch: expanded;
+}
+
+.content .title {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  color: #404040;
+  padding: 64px 0;
+}
+.title h4 {
+  font-size: 2rem;
+  font-weight: 300;
+}
+.title h2 {
+  font-size: 4rem;
+}
+.title p {
+  font-size: 1.5rem;
+}
+
+.cards {
+  max-width: 1330px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding: ;
+}
+
+.colunaOne {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+@media screen and (max-width: 850px) {
+  .content {
+    padding: 0 16px !important;
+  }
+
+  .title h4 {
+    font-size: 1rem;
+    font-weight: 300;
+  }
+  .title h2 {
+    font-size: 2rem;
+  }
+  .title p {
+    font-size: 1rem;
+  }
+
+  .cards .colunaOne .cardOne {
+    display: flex !important;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  .cards .colunaOne .cardTwo {
+    width: 100% !important;
+  }
+  .infoOne {
+    width: 100% !important;
+    margin-bottom: 32px;
+  }
+  .dados {
+    width: 100% !important;
+    align-items: flex-start !important;
+  }
+  .dados button {
+    width: 100% !important;
+    height: 48px;
+    background-color: #00278a;
+    border: none;
+    border-radius: 8px;
+  }
+  .dados button a {
+    font-size: 16px;
+  }
+  .dadoOne,
+  .dadoTwo {
+    width: 100% !important;
+  }
+
+  .cardTwo {
+    display: flex;
+    justify-content: flex-start !important;
+  }
+  .cardTwo .info {
+  }
+}
+
+.cardOne {
+  background-image: url(../assets/image/card01-desk.png) !important;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 764px;
+  min-width: 368px;
+  padding: 32px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.infoOne {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+
+  width: 333px;
+}
+.infoOne h3 {
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 600;
+}
+.infoOne p {
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.dados {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: flex-end;
+}
+.dados button {
+  width: 204px;
+  height: 48px;
+  background-color: #00278a;
+  border: none;
+  border-radius: 8px;
+}
+.dados button a {
+  text-decoration: none;
+  color: #fff;
+}
+.dadoOne {
+  border-radius: 12px;
+  border: 0.5px solid rgba(0, 0, 0, 0);
+  background: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(20px);
+  width: 337px;
+  padding: 8px 32px 8px 8px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.dadoOne .colOne {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.colOne .pill {
+  width: 90px;
+  padding: 2px 10px;
+  border-radius: 4px;
+  background-color: #00154d;
+}
+.pill p {
+  font-size: 12px;
+  color: #0043f0;
+}
+.colOne .desc p {
+  color: #fff;
+}
+.colOne .desc p:nth-child(1) {
+  font-size: 12px;
+}
+.colOne .desc p:nth-child(2) {
+  font-size: 10px;
+  font-weight: 300;
+}
+
+/* ----- dado two ---- */
+.dadoTwo {
+  border-radius: 12px;
+  border: 0.5px solid rgba(0, 0, 0, 0);
+  background: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(20px);
+  width: 337px;
+  padding: 8px 32px 8px 8px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.dadoTwo .colTwo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.colTwo .pill {
+  width: 90px;
+  padding: 2px 10px;
+  border-radius: 4px;
+  background-color: #00d24840;
+  text-align: center;
+}
+.colTwo .pill p {
+  font-size: 12px;
+  color: #24ff00;
+}
+.colTwo .desc p {
+  color: #fff;
+}
+.colTwo .desc p:nth-child(1) {
+  font-size: 12px;
+}
+.colTwo .desc p:nth-child(2) {
+  font-size: 10px;
+  font-weight: 300;
+}
+
+/* Fora de contexto */
+
+.cardTwo {
+  background-image: url(../assets/image/card02-desk.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 764px;
+  min-width: 368px;
+  height: 100%;
+  padding: 32px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.cardTwo .info {
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  height: 297px;
+  width: 420px;
+  justify-content: flex-end;
+}
+.info h3 {
+  font-size: 40px;
+}
+.cardThree {
+  background-image: url(../assets/image/card03-desk.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 554px;
+  height: 738px;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+}
+
+@media screen and (max-width: 1330px) {
+  .content {
+    padding: 0 64px;
+  }
+  .cards .colunaOne {
+    width: 100% !important;
+  }
+  .cards .colunaOne .cardOne {
+    width: 100% !important;
+  }
+  .cards .colunaOne .cardTwo {
+    width: 100% !important;
+  }
+
+  .cardThree {
+    width: 100%;
+  }
+  .segunda {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .cardThree .segunda img {
+    width: 500px !important;
+  }
+}
+
+.cardThree .primeira {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.primeira img {
+  height: 82px;
+}
+.cardThree .segunda img {
+  width: 100%;
+}
+
+.cardThree .terceira {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+.terceira p {
+  color: #ffffff;
+}
+
+.terceira p:nth-child(1) {
+  font-size: 3rem;
+}
+.terceira p:nth-child(2) {
+  font-size: 1rem;
+}
+.terceira p:nth-child(3) {
+  font-size: 2rem;
+}

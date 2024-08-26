@@ -1,0 +1,128 @@
+.content {
+  background: linear-gradient(90deg, #00278a 0%, #000a24 100%);
+}
+
+.footer {
+  max-width: 1330px;
+  margin: 0 auto;
+  font-stretch: expanded;
+  color: #fff;
+  padding: 64px 0;
+}
+
+.rowOne {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 0 32px 0;
+}
+
+.rowOne .logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.logo .icon {
+  display: flex;
+  gap: 22px;
+}
+.icon a {
+  color: #fff;
+}
+.icon a:hover {
+  color: #404040;
+}
+.contato {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.rowOne .contato .title {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.contato .nav ul {
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.contato .nav ul li {
+  list-style: none;
+}
+
+.contato .nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+.contato .nav ul li a:hover {
+  text-decoration: underline;
+  color: #404040;
+}
+.enderesso {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+.enderesso .title {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.enderesso ul li {
+  list-style: none;
+}
+
+.enderesso ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.enderesso ul li a:hover {
+  text-decoration: undeline;
+  color: #404040;
+}
+
+.rowTwo {
+  padding: 32px 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border-top: 1px solid white;
+}
+.rowThree .float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  border-radius: 50px;
+  background-color: #25d366;
+  color: #fff;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+  display: block;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  padding: 10px 10px;
+}
+@media screen and (max-width: 800px) {
+  .content {
+    padding: 32px;
+  }
+  .rowOne {
+    gap: 32px;
+  }
+  .logo {
+    gap: 32px;
+  }
+  .float {
+    padding: 10px;
+  }
+}
